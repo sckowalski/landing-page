@@ -2,10 +2,10 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("/fonts/Roboto-Regular.ttf");
+    src: url("https://fonts.googleapis.com/css?family=Roboto");
   }
 
-html {
+* {
   font-family: "Roboto", sans-serif;
 }
 
@@ -14,7 +14,7 @@ a {
 }
 
 button {
-    font-family: "Roboto", serif;
+    border-style: none;
 }
 
 body {
@@ -61,6 +61,7 @@ body {
 
 .right-container a {
     color: #E5E7EB;
+    font-weight: 100;
 }
 
 .leftbannerbox {
@@ -77,17 +78,18 @@ body {
 
 #sub-text {
     color: #E5E7EB;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 18px;
 }
 
 button.sign-up {
     background-color: #3882F6;
-    min-height: 48px;
+    min-height: 40px;
     font-size: 18px;
     color: white;
-    width: 120px;
+    width: 140px;
     margin-top: 18px;
+    border-radius: 8px;
 }
 
 .top-banner {

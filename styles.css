@@ -1,0 +1,36 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border: solid black 2px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    border: solid black 2px;
+    color: white;
+}
+
+.logo {
+    margin-left: 24px;
+}
+
+.right-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.top-banner {
+    height:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1f2937;
+    color:white;
+}

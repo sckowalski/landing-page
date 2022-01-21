@@ -1,5 +1,14 @@
 /* styles.css */
 
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf");
+  }
+
+html {
+  font-family: "Roboto", serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,6 +21,7 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     border: solid black 2px;
+    font-weight: 700;
     color: white;
 }
 

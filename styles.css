@@ -9,38 +9,71 @@ html {
   font-family: "Roboto", serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    flex-grow: 1;
     color: black;
-    border: solid black 2px;
+    /* border: solid black 2px; */
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    border: solid black 2px;
+    /* border: solid black 2px; */
     font-weight: 700;
     color: white;
+    padding: 20px;
+    max-height: 80px;
 }
 
 .logo {
-    margin-left: 24px;
+    /* flex: 0 0 0%; */
+    max-height: 50px;
+    margin-left: 50px;
+}
+
+.pizza-pic {
+    /* max-width: 50%; */
+    max-height: 200px;
+    margin: 0px 50px 50px 50px;
 }
 
 .right-container {
     display: flex;
-    gap: 40px;
+    margin-right: 100px;
+    gap: 50px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.right-container a {
+    color: #E5E7EB;
+}
+
+.leftbannerbox {
+    font-weight: 800;
+    font-size: 48px;
+    max-width: 50%;
 }
 
 .top-banner {
-    height:30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
     color:white;
+    padding:50px;
+}
+
+.main-body {
+    height: 100px;
+    flex:1;
 }

@@ -80,6 +80,10 @@ body {
     font-size: 18px;
 }
 
+.sign-up a {
+    color:#E5E7EB;
+}
+
 button.sign-up {
     background-color: #3882F6;
     min-height: 40px;
@@ -198,7 +202,9 @@ button.sign-up {
     color: #c8cacc;
 }
 
-#cta-signup {
+button.cta-signup {
+    background-color: #3882F6;
+    font-size: 18pxgit;
     font-weight: 700;
     border-radius: 8px;
     border: solid white 2px;
